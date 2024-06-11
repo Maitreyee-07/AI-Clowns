@@ -1,5 +1,5 @@
 1)Impact of other methods of null value imputing
-2)Look at the evaluation and 1997_1998 kde and apply necessary transformations
+2)Look at the evaluation and 1997_1998 kde and apply necessary transformations as mentioned in observations in testdata_analysis
 3)outlier removal/ deciding what to do with them(same look at the test sets formore information)
 4)deseasonlization if required (experimenting)
 5)create lag features and other features like(binary classification of el nino/la nina) (trial exp)
