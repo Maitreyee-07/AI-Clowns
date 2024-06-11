@@ -1,7 +1,14 @@
+We are in stage 1,2,3 right now and i want you guys to experiment with diff methods and tell me the best fit of imputing,tranformation,outlier removal.
+Guidelines are also given in observations i write in the notebooks 
+
 1)Impact of other methods of null value imputing
 2)Look at the evaluation and 1997_1998 kde and apply necessary transformations as mentioned in observations in testdata_analysis
 3)outlier removal/ deciding what to do with them(same look at the test sets formore information)
 4)deseasonlization if required (experimenting)
-5)create lag features and other features like(binary classification of el nino/la nina) (trial exp)
+5)create lag features and other features like(binary classification of el nino/la nina) (trial exp) detail below
 6)experiment with following models - xgboost, lstm ,random forest, adaboost etc
 7) if models give good result we use the data of evaluation and train that too for testing of 1997_1998(its risky tho)
+
+5)As keed said about how sea surface is low during el nino/la nina dont remember which one and high during the other we can create two binary features
+classifys if 1)el nino and 2)la nina has occured in that year or not. we can do this maunually or using other features but since we have time its better to do it maunually
+and its just 12 years of data we need to find out. so we will find that out and fill the digit(0 or 1) in place of all samples of that corresponding year
