@@ -1,0 +1,6 @@
+1)Impact of other methods of null value imputing
+2)Look at the evaluation and 1997_1998 kde and apply necessary transformations
+3)outlier removal/ deciding what to do with them
+4)deseasonlization if required (experimenting)
+5)experiment with following models - xgboost, lstm ,random forest, adaboost etc
+6) if models give good result we use the data of evaluation and train that too for testing of 1997_1998(its risky tho)
