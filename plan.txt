@@ -9,6 +9,6 @@ Guidelines are also given in observations i write in the notebooks
 6)experiment with following models - xgboost, lstm ,random forest, adaboost etc
 7) if models give good result we use the data of evaluation and train that too for testing of 1997_1998(its risky tho)
 
-5)As keed said about how sea surface is low during el nino/la nina dont remember which one and high during the other we can create two binary features
+5)As Maitreyee said about how sea surface is low during el nino/la nina dont remember which one and high during the other we can create two binary features
 classifys if 1)el nino and 2)la nina has occured in that year or not. we can do this maunually or using other features but since we have time its better to do it maunually
 and its just 12 years of data we need to find out. so we will find that out and fill the digit(0 or 1) in place of all samples of that corresponding year
