@@ -43,8 +43,16 @@ Using the pickle files, we predict the sea surface temperatures of the two datas
 
 Follow the files for proper understanding of the workflow and look into the comments and observations<br>
 The output i.e, the predictions for the required 'evaluation.csv' and '1997_1998.csv' is in <b>CHRONOLOGICAL ORDER</b> i.e, sortedin accordance with the time column(day , month, year)<br>
-These predictions are saved as csv files and are named as 'prediction_1997_1998.csv' and 'prediction_evaluation.csv'
+These predictions are saved as csv files and are named as 'prediction_1997_1998.csv' and 'prediction_evaluation.csv'<br>
 
+While testing our predictions please sort your datafreame. Code given below might be helpful:<br>(Assuming df is your dataframe)<br>
+
+```python
+df['date'] = pd.to_datetime(df[['year', 'month', 'day']])
+df = df.sort_values(by='date').reset_index(drop=True)
+df.drop(columns=['date'], inplace=True)
+df.head()
+```
 ## Requirements
 
 You need to import the following modules in python :<br>
