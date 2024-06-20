@@ -33,7 +33,7 @@ Out of the many models we tested like xgboost, ARIMA, LSTM, Random Forest Regres
 Grid search CV was used for hyperparameter tuning of the XGB and it gave test results with approximately 96 percent accuracuy 
 
 ## Model saving and loading
-After training your model, you can save it using the `pickle` module in Python.<br> 
+After training your model, you can save it using the 'pickle' module in Python.<br> 
 This allows you to persist the model for later use without having to retrain it.
 
 ## Making predictions
@@ -42,7 +42,7 @@ Using the pickle files, we predict the sea surface temperatures of the two datas
 ## Usage
 
 Follow the files for proper understanding of the workflow and look into the comments and observations<br>
-The output i.e the predictions for the required 'evaluation.csv' and '1997_1998.csv' is in <u><b>chronological order</b></u> i.e, sortedin accordance with the time column(day , month, year)<br>
+The output i.e, the predictions for the required 'evaluation.csv' and '1997_1998.csv' is in <b>CHRONOLOGICAL ORDER</b> i.e, sortedin accordance with the time column(day , month, year)<br>
 These predictions are saved as csv files and are named as 'prediction_1997_1998.csv' and 'prediction_evaluation.csv'
 
 ## Requirements
