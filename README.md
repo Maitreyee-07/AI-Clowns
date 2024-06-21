@@ -5,7 +5,7 @@ NOTE:- Do not skip the usage part.
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Data Preprocessing](#data-preprocessing)
-  - [Handling null values](#handling-null-values)
+  - [Handling Null Values](#handling-null-values)
   - [Dropping Unnecessary Columns](#dropping-unnecessary-columns)
   - [Applying Transformations](#applying-transformations)
 - [Model Training](#model-training)
