@@ -65,3 +65,9 @@ You need to import the following modules in Python:<br>
 - tensorflow
 - matplotlib
 - pickle
+
+To install these dependencies, you can use the following command:
+```bash
+pip install pandas numpy sklearn seaborn tensorflow matplotlib pickle
+```
+
